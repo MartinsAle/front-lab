@@ -12,8 +12,8 @@
     },
     {
       "id": "3",
-      "name": "Sansung S20+",
-      "price": 5000.89
+      "name": "Sansung S20+ Ultra",
+      "price": "7520.89"
     },
     {
       "id": "183d",
@@ -39,6 +39,11 @@
       "id": "1418",
       "name": "Caderno preto",
       "price": "12.99"
+    },
+    {
+      "id": "405b",
+      "name": "Camisa Polo Preta",
+      "price": "79.99"
     }
   ]
 }
