@@ -11,5 +11,5 @@ table {
 }
 
 .delete > i {
-	color: #e35e6b;
+	color: red;
 }

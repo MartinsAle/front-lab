@@ -1,5 +1,5 @@
 <mat-card>
-    <mat-card-title>Novo Produto</mat-card-title>
+    <mat-card-title>Alterar Produto</mat-card-title>
     <form #form="ngForm">
         <mat-form-field>
             <input matInput type="text" name="name" placeholder="Nome" [(ngModel)]="product.name">
@@ -8,7 +8,7 @@
             <input matInput type="text" name="price" placeholder="Preço (R$" [(ngModel)]="product.price">
         </mat-form-field>
         <div class="flex flex-col">
-            <button mat-raised-button type="submit" (click)="createProduct()">
+            <button mat-raised-button type="submit" (click)="updateProduct()">
                 Salvar
             </button>
             <button mat-raised-button type="button" (click)="cancel()">
